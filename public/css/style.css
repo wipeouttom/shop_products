@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  color:white;
+}
+
+#sidebar {
+  min-height: 100%;
+  background-color: #1a1a29;
+}
+
+.topbar {
+  height: 60px;
+  background-color: #191928;
+}
+
+.main {
+  display: flex;
+  height: auto;
+  min-height: calc(100vh - 60px);
+  background-color: #191928;
+}
+
+section {
+  display: block;
+}
