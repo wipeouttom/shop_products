@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -19,11 +21,18 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <section id="sidebar" class="col-md-2">
-                <div id="brand">
+            <section id="sidebar" class="col-md-2 fixed">
+                <div id="brand" class='brand'>
                     WebsiteLogo
                 </div>
     @include('partial.sidebar')
+                <div id="logout" class="logout">
+                    <ul style="list-style-type:none">
+                        <li>
+                            <a href="#"><i class="fas fa-sign-out-alt"></i>Log out</a>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
             <section class="body col-md-10 p-0">

@@ -6,9 +6,13 @@ html {
 
 body {
   height: 100%;
-  margin: 0px;
+  margin: 0;
   padding: 0px;
   color:white;
+}
+
+.body{
+  margin-left: 16.666666666666667%;
 }
 
 #sidebar {
@@ -28,6 +32,44 @@ body {
   background-color: #191928;
 }
 
+.brand {
+  height:80px;
+}
+
 section {
   display: block;
+}
+
+.sidebar-ul > li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left:30px;
+}
+
+i {
+  padding-right: 10px;
+}
+
+.logout {
+  position: absolute;
+  bottom: 50px;
+  padding-left:30px;
+}
+
+.fixed {
+  position: fixed;
+  height:100vh;
+}
+
+a {
+  color: #5f5d75;
+}
+
+a.active{
+  color:white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
 }
