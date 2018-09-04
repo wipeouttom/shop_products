@@ -21,7 +21,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <section id="sidebar" class="col-md-2 fixed">
+            <section id="sidebar" class="fixed">
                 <div id="brand" class='brand'>
                     WebsiteLogo
                 </div>
@@ -35,7 +35,7 @@
                 </div>
             </section>
 
-            <section class="body col-md-10 p-0">
+            <section class="body">
                 <div class="topbar">
     @include('partial.topbar')
                 </div>

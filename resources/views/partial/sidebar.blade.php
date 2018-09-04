@@ -6,7 +6,7 @@
         <a href="#"><i class="fas fa-user"></i>Customers</a>
     </li>
     <li>
-        <a href="#"><i class="fas fa-concierge-bell"></i>Waiters</a>
+        <a href="#"><i class="fas fa-bell"></i>Waiters</a>
     </li>
     <li>
         <a href="#"><i class="fas fa-list-alt"></i>Menu</a>
