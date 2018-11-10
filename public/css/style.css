@@ -77,3 +77,67 @@ a:hover {
   color: white;
   text-decoration: none;
 }
+
+.vakje {
+  height: 125px;
+  border-style: solid;
+  border-width: 15px 15px 15px 15px;
+  border-color:#191928;
+  background-color: #1f1f30;
+}
+
+.vakje2 {
+  height: 125px;
+  border-style: solid;
+  border-width: 15px 0px 15px 0px;
+  border-color:#191928;
+  background-color: #1f1f30;
+}
+
+.image {
+  height: 200px;
+  background-color: #191940;
+  border-style: solid;
+  border-width: 0px 15px;
+  border-color:#191928;
+}
+
+.subtext {
+  height: 100px;
+  border-style: solid;
+  border-width: 0px 15px;
+  border-color:#191928;
+  background-color: #1f1f30;
+}
+
+.image2 {
+  height: 200px;
+  background-color: #191940;
+  border-style: solid;
+  border-width: 0px 0px;
+  border-color:#191928;
+}
+
+.subtext2 {
+  height: 100px;
+  border-style: solid;
+  border-width: 0px 0px;
+  border-color:#191928;
+  background-color: #1f1f30;
+}
+
+.image3 {
+  height: 200px;
+  background-color: #191940;
+  border-style: solid;
+  border-width: 0px 15px 0px 0px;
+  border-color:#191928;
+}
+
+.subtext3 {
+  height: 100px;
+  border-style: solid;
+  border-width: 0px 15px 0px 0px;
+  border-color:#191928;
+  background-color: #1f1f30;
+}
