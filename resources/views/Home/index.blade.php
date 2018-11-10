@@ -49,9 +49,17 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-6">super text</div>
-        <div class="col-6">super text</div>
+        <div style="padding-left: 15px;">
+            <h3>
+                Statistics
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 graph">super text</div>
+        <div class="col-6 graph2">super text</div>
     </div>
 </div>
+
 
 @stop
