@@ -81,7 +81,8 @@ a:hover {
 .vakje {
   height: 125px;
   border-style: solid;
-  border-width: 15px 15px 15px 15px;
+  border-width: 20px 20px 20px 20px;
+  /* margin: 20px; */
   border-color:#191928;
   background-color: #1f1f30;
 }
@@ -89,7 +90,7 @@ a:hover {
 .vakje2 {
   height: 125px;
   border-style: solid;
-  border-width: 15px 0px 15px 0px;
+  border-width: 20px 0px 20px 0px;
   border-color:#191928;
   background-color: #1f1f30;
 }
@@ -98,14 +99,14 @@ a:hover {
   height: 200px;
   background-color: #191940;
   border-style: solid;
-  border-width: 0px 15px;
+  border-width: 0px 20px;
   border-color:#191928;
 }
 
 .subtext {
   height: 100px;
   border-style: solid;
-  border-width: 0px 15px;
+  border-width: 0px 20px;
   border-color:#191928;
   background-color: #1f1f30;
 }
@@ -130,14 +131,14 @@ a:hover {
   height: 200px;
   background-color: #191940;
   border-style: solid;
-  border-width: 0px 15px 0px 0px;
+  border-width: 0px 20px 0px 0px;
   border-color:#191928;
 }
 
 .subtext3 {
   height: 100px;
   border-style: solid;
-  border-width: 0px 15px 0px 0px;
+  border-width: 0px 20px 0px 0px;
   border-color:#191928;
   background-color: #1f1f30;
 }
@@ -146,7 +147,7 @@ a:hover {
   height: 400px;
   background-color: #1f1f30;
   border-style: solid;
-  border-width: 0px 15px 15px 15px;
+  border-width: 0px 20px 20px 20px;
   border-color:#191928;
 }
 
@@ -154,6 +155,6 @@ a:hover {
   height: 400px;
   background-color: #1f1f30;
   border-style: solid;
-  border-width: 0px 15px 15px 0px;
+  border-width: 0px 20px 20px 0px;
   border-color:#191928;
 }

@@ -13,10 +13,13 @@
         </div>
     </div>
     <div class="row">
-        <div style="padding-left: 15px;">
+        <div class="col-10" style="padding-left: 20px;">
             <h3>
                 Trending orders
             </h3>
+        </div>
+        <div class="col-2">
+            <a style="float: right; padding-top: 10px;" href="">See all products ></a>
         </div>
     </div>
     <div class="row">
@@ -49,15 +52,15 @@
         </div>
     </div>
     <div class="row">
-        <div style="padding-left: 15px;">
+        <div style="padding-left: 20px;">
             <h3>
                 Statistics
             </h3>
         </div>
     </div>
     <div class="row">
-        <div class="col-6 graph">super text</div>
-        <div class="col-6 graph2">super text</div>
+        <div class="col-6 text-center graph">super text</div>
+        <div class="col-6 text-center graph2">super text</div>
     </div>
 </div>
 
