@@ -14,7 +14,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('Product.index', Product::all());
+        return view('Product.index', ['products' => Product::paginate(12)]);
     }
 
     /**
@@ -35,7 +35,19 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //Store attachment
+        if (count($request->file('attachment')) > 0) {
+            $path = $request->file('attachment')->store('product/');
+            $request->request->add(['imageUrl' => $path]);
+        }
+
+        Product::create($request->all());
+
+        if ($request->submit == 'new') {
+            return redirect()->action('ProductController@create');
+        } else {
+            return redirect()->action('ProductController@index');
+        }
     }
 
     /**
@@ -46,7 +58,7 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('Product.show', ['product' => Product::find($id)]);
     }
 
     /**
