@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class ProductController extends Controller
 {
@@ -37,7 +38,7 @@ class ProductController extends Controller
     {
         //Store attachment
         if (count($request->file('attachment')) > 0) {
-            $path = $request->file('attachment')->store('product/');
+            $path = $request->file('attachment')->store('product', 'public');
             $request->request->add(['imageUrl' => $path]);
         }
 
