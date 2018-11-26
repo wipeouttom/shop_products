@@ -14,7 +14,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('Home.index', ['products' => Product::all()->reverse()->take(4)]);
+        return view('Home.index', ['products' => Product::all()->reverse()->take(4), 'totalProducts' => Product::count()]);
     }
 
     /**

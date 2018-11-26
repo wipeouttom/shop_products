@@ -6,9 +6,9 @@
     @if(count($products) > 0)
     <div class="row">
         @foreach($products as $product)
-        <div class="col-3 productsIndex">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 productsIndex">
             <div class="row">
-                <div class="col-12 text-center imageIndex">
+                <div class="col-12 text-center no-padding imageIndex">
                     <img src="{{asset('storage/'.$product->imageUrl)}}" class="img-fluid" alt="">
                 </div>
             </div>
