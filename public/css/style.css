@@ -88,10 +88,12 @@ a:hover {
 }
 
 .vakje {
-  height: 125px;
-  line-height: 125px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align:middle;
   background-color: #1f1f30;
   border: 0px;
+  margin-bottom: 25px;
 }
 
 .image {

@@ -5,14 +5,10 @@
         <div class="col-md-4 products">
             <div class="row">
                 <div class="col-md-12 text-center vakje">
-                    <div class="col-md-2">
-                        
-                    </div>
-                    <div class="col-md-6">
-                        Total products:
-                    </div>
-                    <div class="col-md-4">
-                        {{$totalProducts}}
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span "><img src="{{ asset('img/vakje.png')}}" class="img-fluid" style="max-height:75px; max-width: 75px;" alt=""></span> Total products: <span style="font-size: 45px;">{{$totalProducts}}</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -20,7 +16,17 @@
         <div class="col-md-4 products">
             <div class="row">
                 <div class="col-md-12 text-center vakje">
-                    Image
+                    <div class="row">
+                        <div class="col-md-3" style="max-height:75px; max-width:75px; margin-left:30px;">
+                            <img src="{{ asset('img/vakje.png')}}" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-5">
+                            Total products:
+                        </div>
+                        <div class="col-md-4" style="font-size: 45px;">
+                            {{$totalProducts}}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,6 +89,12 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+
 
 
 
